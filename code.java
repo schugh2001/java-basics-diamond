@@ -41,5 +41,26 @@ public class diamond
             System.out.println();
         }
         
+        //Comparison
+        {
+            //Lets compare 3 numbers
+            int n1, n2, n3, max;
+            
+            Scanne sc = new Scanner (System.in);
+            
+            System.out.print("Enter the First Number:  ");
+            num1 = sc.nextInt();
+            System.out.print("Enter the Second Number:  ");
+            num2 = sc.nextInt();
+            System.out.print("Enter the Third Number:  ");
+            num3 = sc.nextInt();
+        
+            System.out.println();
+
+            max = num3 > (num1 > num2 ? num1 : num2) ? num3 : ((num1 > num2) ? num1 : num2);
+
+            System.out.println("The Largest Number out of " + num1 + ", " + num2 + " and " + num3 + " is:  " + max);
+        }
+        
     }
 }
