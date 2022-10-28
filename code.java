@@ -15,7 +15,8 @@ public class diamond
             //spaces 
             for(int j=1;j<=(n-i);j++)
             {
-                System.out.print(" hi");
+                System.out.println(" hi");
+                System.out.print("Welcome to Java!!");
             }
             //stars
             for(int k=1;k<=((2*i)-1);k++)
