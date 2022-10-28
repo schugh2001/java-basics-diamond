@@ -9,14 +9,15 @@ public class diamond
     }
     public static void diamond(int n)
     {
-        //1st half
+        //1st Part
         for(int i=1;i<=n;i++)
         {
             //spaces 
             for(int j=1;j<=(n-i);j++)
             {
                 System.out.println(" hi");
-                System.out.print("Welcome to Java!!");
+                System.out.println("Welcome to Java!!");
+                System.out.print("This is Java Basics Diamond!!");
             }
             //stars
             for(int k=1;k<=((2*i)-1);k++)
@@ -25,7 +26,7 @@ public class diamond
             }
             System.out.println();
         }
-        //2nd half
+        //2nd Part
         for(int i=n;i>=1;i--)
         {
             //spaces 
@@ -33,34 +34,14 @@ public class diamond
             {
                 System.out.print(" ");
             }
+            //Adding spaces
+            System.out.println();
             
             for(int k=1;k<=((2*i)-1);k++)
             {
-                System.out.print("#");
+                System.out.println("#");
+                System.out.print("The variable goes like:  " + k);
             }
             System.out.println();
         }
         
-        //Comparison
-        {
-            //Lets compare 3 numbers
-            int n1, n2, n3, max;
-            
-            Scanne sc = new Scanner (System.in);
-            
-            System.out.print("Enter the First Number:  ");
-            num1 = sc.nextInt();
-            System.out.print("Enter the Second Number:  ");
-            num2 = sc.nextInt();
-            System.out.print("Enter the Third Number:  ");
-            num3 = sc.nextInt();
-        
-            System.out.println();
-
-            max = num3 > (num1 > num2 ? num1 : num2) ? num3 : ((num1 > num2) ? num1 : num2);
-
-            System.out.println("The Largest Number out of " + num1 + ", " + num2 + " and " + num3 + " is:  " + max);
-        }
-        
-    }
-}
