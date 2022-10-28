@@ -9,7 +9,7 @@ public class diamond
     }
     public static void diamond(int n)
     {
-        //1st half
+        //1st Part
         for(int i=1;i<=n;i++)
         {
             //spaces 
@@ -25,7 +25,7 @@ public class diamond
             }
             System.out.println();
         }
-        //2nd half
+        //2nd Part
         for(int i=n;i>=1;i--)
         {
             //spaces 
@@ -39,6 +39,15 @@ public class diamond
                 System.out.print("#");
             }
             System.out.println();
+        }
+        
+        //3rd Part
+        {
+            //Lets use StringBuffer
+            Stringbuffer str = new StringBuffer("Java is Object Language");
+            
+            System.out.println("Original String was:  " + str);
+            System.out.println("Length of the String is:  " + str.length());
         }
         
     }
