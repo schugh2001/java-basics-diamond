@@ -41,5 +41,11 @@ public class diamond
             System.out.println();
         }
         
+        //Ending
+        {
+            System.out.println("Goodbyes are hard to say!!");
+            System.out.println("But what else can we do, seeya next time soon...!!")
+        }
+        
     }
 }
