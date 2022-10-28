@@ -45,14 +45,3 @@ public class diamond
             System.out.println();
         }
         
-        //3rd Part
-        {
-            //Lets use StringBuffer
-            Stringbuffer str = new StringBuffer("Java is Object Language");
-            
-            System.out.println("Original String was:  " + str);
-            System.out.println("Length of the String is:  " + str.length());
-        }
-        
-    }
-}
