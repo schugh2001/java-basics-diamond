@@ -37,7 +37,8 @@ public class diamond
             
             for(int k=1;k<=((2*i)-1);k++)
             {
-                System.out.print("#");
+                System.out.println("#");
+                System.out.print("The variable goes like:  " + k);
             }
             System.out.println();
         }
