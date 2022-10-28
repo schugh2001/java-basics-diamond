@@ -41,5 +41,22 @@ public class diamond
             System.out.println();
         }
         
+        //Part unknown
+        {
+            //Command line arguments
+            
+            int count, x = ;
+            String str;
+            count = args.length;
+            
+            System.out.println("Number of Arguments passed:  " + coutn);
+            
+            while (x < count)
+            {
+                str = args[x];
+                x++;
+                System,out.println("Features of Java " + str);
+            }
+        
     }
 }
