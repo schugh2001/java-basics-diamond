@@ -18,6 +18,7 @@ public class diamond
                 System.out.println(" hi");
                 System.out.println("Welcome to Java!!");
                 System.out.println("Bobye to sakht hai");
+                System.out.println("Ballabhgarh");
                 System.out.print("This is Java Basics Diamond!!");
             }
             //stars
