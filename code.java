@@ -15,10 +15,10 @@ public class diamond
             //spaces 
             for(int j=1;j<=(n-i);j++)
             {
-                System.out.println(" hi");
+                System.out.println("hi");
                 System.out.println("Welcome to Java!!");
-                System.out.println("Sector 15");
-                System.out.println("Bobye to sakht hai, HAA HAI");
+                System.out.println("Sector_15");
+                System.out.println("Bobye to sakht hai");
                 System.out.println("Ballabhgarh");
                 System.out.print("This is Java Basics Diamond!!");
                 System.out.println("schugh");
