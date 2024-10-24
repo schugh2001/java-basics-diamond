@@ -23,7 +23,7 @@ public class diamond
                 System.out.print("This is Java Basics Diamond!!");
                 System.out.println("schugh");
                 System.out.println("Bobby is back");
-                
+                System.out.println("Hello Bobby");
             }
             //stars
             for(int k=1;k<=((2*i)-1);k++)
