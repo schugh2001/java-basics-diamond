@@ -21,7 +21,7 @@ public class diamond
                 System.out.println("Bobye to sakht hai");
                 System.out.println("Ballabhgarh");
                 System.out.print("This is Java Basics Diamond!!");
-                System.out.println("Yogesh");
+                System.out.println("schugh");
             }
             //stars
             for(int k=1;k<=((2*i)-1);k++)
